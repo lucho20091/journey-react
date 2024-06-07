@@ -1,0 +1,91 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.App{
+  width: 550px;
+  background: #FFFFFF;
+  border: 1px solid black;
+}
+/* Navbar */
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  color: #FFF;
+  background: #F55A5A;
+  gap: 0.4em;
+}
+
+.navbar > a{
+  text-decoration: none;
+  color: #FFF;
+}
+.navbar--icon{
+  width: 2em;
+  height: 2em;
+}
+
+.navbar--h1{
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Main */
+.main{
+  width: 90%;
+  margin: 2em auto;
+  display: flex;
+  align-items: center;
+  gap: 1.18em;
+}
+.main--img > img{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.main--text--top{
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+}
+.main--text--top--icon{
+  color:#F55A5A;
+}
+.main--text--top--country{
+  font-size: 0.75rem;
+  letter-spacing: 0.17em;
+  margin: 0;
+}
+.main--text--top > a{
+  color: #918E9B;
+}
+.main--text--title > h2{
+  margin: 0;
+  font-size: 1.56rem;
+  font-weight: 700;
+  color: #2B283A;
+}
+.main--text--dates > p{
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.main--text--description > p{
+  font-size: 0.80rem;
+  line-height: 1rem;
+  color: #2B283A;
+}
+
