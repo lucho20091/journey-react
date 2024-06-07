@@ -22,7 +22,7 @@ export default function Main(props){
                     <p>{props.startDate} - {props.endDate}</p>
                 </div>
                 <div className="main--text--description">
-                    <p>{props.description}</p>
+                    <p>{props.description.substring(0,200).trim()}...</p>
                 </div>
             </div>
         </div>
