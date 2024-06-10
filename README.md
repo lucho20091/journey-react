@@ -1,3 +1,3 @@
 # hello this is the react travel journal
 
-[live](https://traveljournal-v.netlify.app/)
+click here to see the [live](https://traveljournal-v.netlify.app/)
